@@ -1,0 +1,37 @@
+{
+  "name": "platformer",
+  "main": "main.js",
+  "productName": "Platformer",
+  "description": "Platformer",
+  "author": "Gabriel",
+  "version": "1.0.0",
+  "dependencies": {
+    "update-electron-app": "^2.0.1"
+  },
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "8.2.5",
+    "electron-builder": "22.9.1"
+  },
+  "build": {
+    "appId": "com.thegemdev.platformer",
+    "directories": {
+      "buildResources": "buildResources"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheGemDev/Platformer-tutorial.git"
+  },
+  "keywords": [
+    "gdevelop"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheGemDev/Platformer-tutorial/issues"
+  },
+  "homepage": "https://github.com/TheGemDev/Platformer-tutorial#readme"
+}
